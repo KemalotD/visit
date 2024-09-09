@@ -1,0 +1,132 @@
+/* Общие стили */
+body {
+    background-image: url('img/sky.gif');
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Изменение цвета фона и текста в заголовке */
+.header {
+    text-align: center;
+    background-image: url('img/fon.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px;
+}
+
+/* Стилизация имени и фамилии в заголовке */
+.name {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* Стилизация подзаголовка в заголовке */
+.header h2 {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+/* Стилизация навигационного бара с более светлым фоном и тенью */
+.navbar {
+    text-align: center;
+    background-color: #4e4e4e;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #777777;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #bbb;
+}
+
+/* Стили для контента */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex: 1; /* Позволяет секции занимать оставшееся пространство */
+}
+
+/* Стили для контейнера */
+.social-container {
+    display: flex;
+    justify-content: center; /* Центрирование столбцов */
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Стили для столбцов соцсетей с уменьшенным отступом справа */
+.social-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px; /* Уменьшение отступа справа для столбца */
+}
+
+/* Удаление отступа справа для последнего столбца */
+.social-column:last-of-type {
+    margin-right: 0;
+}
+
+/* Стили для иконок соцсетей */
+.social-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+/* Стили для заголовков соцсетей */
+.social-title {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Стили для ссылок соцсетей */
+.social-username {
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+}
+
+/* Стили для текстового блока */
+.text-box {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+/* Стили для футера */
+.footer {
+    background: url('img/footer.jpeg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
